@@ -1,0 +1,171 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #333b42;
+}
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+/*Navigation start*/
+.pure-menu {
+  margin-top: 50px;
+}
+
+.pure-menu-link {
+  color: #fff;
+}
+.pure-menu-link:hover {
+  background-color: #a100ff;
+}
+.pure-menu-heading {
+  padding: 0;
+}
+.logo {
+  height: 70px;
+  width: 70px;
+}
+.joinIcon:after{
+  content: url("../img/icons/shape39.png");
+}
+/*Navigation end*/
+/* Header start */
+.headerBackground {
+ position: relative;
+ width: 100%;
+ height: 100vh;
+ background-position-x: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ overflow: hidden;
+ margin-bottom: 0;
+}
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.headerInner {
+  display: block;
+  float: left;
+}
+.titleSet h1{
+  font-size: 60px;
+  color:#fff;
+}
+.titleSet {
+  position: absolute;
+  margin-bottom: 100px;
+}
+.headerInner p{
+  font-size: 16px;
+  color: #fff;
+}
+input[type="submit"] {
+  background-color: #28c8c6;
+}
+input{
+  color:black;
+}
+/*Form start*/
+.pure-form {
+  font-size: 14px;
+}
+.pure-button {
+  background-color:#28c8c6;
+}
+/*Form end*/
+/* Header end */
+/* Iphone start */
+.iphoneInner {
+  text-align: center;
+}
+.iphoneInner h2{
+  font-size: 40px;
+  margin-top: 0;
+  padding-top: 50px;
+}
+.iphoneInner p{
+  font-size: 14px;
+}
+.iphoneInner img {
+  margin: 0 auto;
+  display: block;
+  padding-top: 50px;
+}
+.textBox {
+  max-width: 50%;
+  margin: 0 auto;
+}
+/* Iphone end */
+/*Features of app section start*/
+.featuresInner{
+  text-align: center;
+}
+.featuresInner h2 {
+  font-size: 30px;
+  margin-top: 50px;
+}
+.featuresInner p {
+  font-size: 14px;
+}
+.iconBackground {
+  height: 140px;
+  width: 140px;
+  background-color: #a100ff;
+  border-radius: 50%;
+  position: relative;
+  margin: 50px auto 0;
+
+}
+.iconBackground img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+/*Features of app section end*/
+/*Design guidelines start*/
+.designInner h2{
+  font-size: 30px;
+  text-align: center;
+}
+.designInner p{
+  font-size: 14px;
+  /*// text-align: center;*/
+}
+.textBoxWider{
+  margin: 0 auto;
+  max-width: 68%;
+  text-align: center;
+}
+.buttonMenu{
+  list-style-type: none;
+  margin: 50px auto;
+  padding: 0;
+  overflow: hidden;
+  border: 2px solid #28c8c6;
+  width: 407.9px;
+}
+.buttonMenu li{
+  float: left;
+}
+.buttonMenu li a {
+  display: block;
+  text-decoration: none;
+  color: #28c8c6;
+  text-align: center;
+  padding: 14px 16px;
+  transition: 0.5s;
+  text-transform:uppercase;
+}
+.buttonMenu li a:hover {
+  background-color: #28c8c6;
+  color: #f6f9fa;
+  transition: 0.5s;
+}
+.clearfix{
+  clear:both;
+}
+/*Design guidelines end*/
