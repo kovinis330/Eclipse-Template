@@ -237,9 +237,9 @@ input{
   float: right;
 }
 .social li:first-child {
-  background-color: blue;
+  background-color: #69b6f2;
 }
 .social li:nth-child(2) {
-  background-color: red;
+  background-color: #3a579a;
 }
 /*Footer sectiiion end*/
