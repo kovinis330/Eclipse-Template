@@ -67,6 +67,9 @@ input[type="submit"] {
 input{
   color:black;
 }
+.textHeader {
+  width: 55%;
+}
 /*Form start*/
 .pure-form {
   font-size: 14px;
@@ -130,6 +133,7 @@ input{
 .designInner h2{
   font-size: 30px;
   text-align: center;
+  padding-top: 50px;
 }
 .designInner p{
   font-size: 14px;
@@ -146,7 +150,8 @@ input{
   padding: 0;
   overflow: hidden;
   border: 2px solid #28c8c6;
-  width: 407.9px;
+  width: 528px;
+  border-radius: 5px;
 }
 .buttonMenu li{
   float: left;
@@ -156,9 +161,11 @@ input{
   text-decoration: none;
   color: #28c8c6;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 6px;
   transition: 0.5s;
   text-transform:uppercase;
+  width: 120px;
+  font-size: 14px;
 }
 .buttonMenu li a:hover {
   background-color: #28c8c6;
@@ -168,4 +175,71 @@ input{
 .clearfix{
   clear:both;
 }
+.underImage p {
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  height: 14px;
+  width: auto;
+}
+.underImage img {
+  padding-left: 70px;
+}
 /*Design guidelines end*/
+/*Face section start*/
+.faceBackground {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-position-x: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+.faceInner {
+  position: relative;
+}
+.faceInner h2 {
+  font-size: 60px;
+  color: #fff;
+  margin: 0;
+}
+.faceInner p {
+  font-size: 14px;
+  color: #fff;
+}
+.bigLogo {
+  display: block;
+  float: left;
+  width: 177px;
+  height: 177px;
+  margin: 20% 2% 0 0;
+}
+.faceText {
+  display: block;
+  float: left;
+  width: 40%;
+  margin: 20% 0 0 0;
+}
+.macBook {
+  position: absolute;
+  top: 300px;
+  right: 10%;
+  height: 800px;
+  width: auto;
+}
+/*Face section end*/
+/*Footer section start*/
+.social {
+  display: block;
+  float: right;
+}
+.social li:first-child {
+  background-color: blue;
+}
+.social li:nth-child(2) {
+  background-color: red;
+}
+/*Footer sectiiion end*/
