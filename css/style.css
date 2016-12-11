@@ -225,21 +225,24 @@ input{
 }
 .macBook {
   position: absolute;
-  top: 300px;
+  top: 200px;
   right: 10%;
   height: 800px;
   width: auto;
 }
 /*Face section end*/
 /*Footer section start*/
-.social {
+.social li a {
   display: block;
   float: right;
 }
-.social li:first-child {
+.tweet {
+  display: block;
+  float:right;
   background-color: #69b6f2;
 }
-.social li:nth-child(2) {
+.fb {
   background-color: #3a579a;
+  display: block;
+  float:right;
 }
-/*Footer sectiiion end*/
