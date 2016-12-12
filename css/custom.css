@@ -235,15 +235,22 @@ input{
 /*MacBook Start*/
 .macBook {
   position: absolute;
-  top: 200px;
-  right: 0%;
-  height: 800px;
+  top: 350px;
+  right: 0;
+  height: 1100px;;
   width: auto;
 }
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 1550px) {
   .macBook {
     top: 300px;
-    height: 600px;
+    height: 1000px;
+    width: auto;
+  }
+}
+@media screen and (max-width: 1165px) {
+  .macBook {
+    top: 400px;
+    height: 800px;
     width: auto;
   }
 }
@@ -261,10 +268,7 @@ input{
 .social > * {
   display: inline-block;
 }
-.social li a {
-  display: block;
-  float: right;
-}
+
 .tweet, .fb {
   background-color: #69b6f2;
   text-align: center;
@@ -298,8 +302,7 @@ margin-right: 6px;
   float: left;
 }
 .copy {
-  display: block;
-  float:right;
+
 }
 .footerInner p {
   font-size: 12px;
