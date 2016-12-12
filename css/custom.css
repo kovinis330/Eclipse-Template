@@ -1,9 +1,11 @@
-
 html, body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
   color: #333b42;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
 }
 h1, h2, h3 {
   text-transform: uppercase;
@@ -175,6 +177,9 @@ input{
 .clearfix{
   clear:both;
 }
+.underImage {
+  padding: 0 5px;
+}
 .underImage p {
   text-align: center;
   font-size: 14px;
@@ -184,7 +189,11 @@ input{
   width: auto;
 }
 .underImage img {
-  padding-left: 70px;
+  padding-left: 40px;
+}
+.circleImg {
+  width: 100%;
+  padding: 0 5px;
 }
 /*Design guidelines end*/
 /*Face section start*/
@@ -223,26 +232,76 @@ input{
   width: 40%;
   margin: 20% 0 0 0;
 }
+/*MacBook Start*/
 .macBook {
   position: absolute;
   top: 200px;
-  right: 10%;
+  right: 0%;
   height: 800px;
   width: auto;
 }
+@media screen and (max-width: 1060px) {
+  .macBook {
+    top: 300px;
+    height: 600px;
+    width: auto;
+  }
+}
+@media screen and (max-width: 900px) {
+  .macBook {
+    display: none;
+  }
+}
+/*Macbook End*/
 /*Face section end*/
 /*Footer section start*/
+.social {
+  text-align: right;
+}
+.social > * {
+  display: inline-block;
+}
 .social li a {
   display: block;
   float: right;
 }
-.tweet {
-  display: block;
-  float:right;
+.tweet, .fb {
   background-color: #69b6f2;
+  text-align: center;
+  margin:5px;
+
+  border-radius:4px;
+  font-size: 13px;
 }
 .fb {
+  padding: 8px 16px;
   background-color: #3a579a;
+}
+.tweet {
+  padding: 8px 16px;
+  background-color: #69b6f2;
+}
+.fa-facebook:before, {
+font-size: 16px;
+margin-right: 6px;
+}
+.tweet a, .fb a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 16px;
+}
+.footer {
+  margin-top: 30%;
+  z-index:10;
+}
+.leftOne, .leftTwo {
+  display: block;
+  float: left;
+}
+.copy {
   display: block;
   float:right;
+}
+.footerInner p {
+  font-size: 12px;
 }
