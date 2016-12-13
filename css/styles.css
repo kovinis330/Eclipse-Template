@@ -2,6 +2,7 @@
 @import "pure/base-min.css";
 @import "pure/pure-min.css";
 @import "pure/grids-responsive-old-ie-min.css";
+@import "pure/grids-min.css";
 @import "pure/grids-responsive-min.css";
 
 /*
@@ -12,7 +13,6 @@
 @import "pure/forms-min.css";
 @import "pure/forms-nr-min.css";
 @import "pure/grids-core-min.css";
-@import "pure/grids-min.css";
 @import "pure/grids-units-min.css";
 @import "pure/menus-core-min.css";
 @import "pure/menus-dropdown-min.css";
