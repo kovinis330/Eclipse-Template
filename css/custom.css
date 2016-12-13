@@ -13,7 +13,7 @@ h1, h2, h3 {
 }
 /*Navigation start*/
 .pure-menu {
-  margin-top: 50px;  
+  margin-top: 50px;
 }
 .pure-menu-link {
   color: #fff;
@@ -71,13 +71,12 @@ h1, h2, h3 {
   max-width: 1180px;
   margin: 0 auto;
 }
-.headerInner {
-  display: block;
-  float: left;
-}
 .titleSet h1{
   font-size: 60px;
   color:#fff;
+}
+.pure-u-11-12 {
+  text-align: right;  
 }
 .titleSet {
   position: absolute;
