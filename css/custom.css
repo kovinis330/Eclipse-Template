@@ -6,19 +6,30 @@ html, body {
 }
 *, *:before, *:after {
   box-sizing: border-box;
+  padding: 0;
 }
 h1, h2, h3 {
   text-transform: uppercase;
 }
 /*Navigation start*/
 .pure-menu {
-  margin-top: 50px;
+  margin-top: 50px;  
 }
 .pure-menu-link {
   color: #fff;
+  padding: 0;
+  margin: 0.5em 1em;
+}
+.pure-menu-link:focus {
+  background-color: transparent;
 }
 .pure-menu-link:hover {
-  background-color: #a100ff;
+  background-color: transparent;
+  border-bottom: 2px solid #28c8c6;
+  padding-bottom: 10px;
+}
+.pure-menu-item {
+  text-transform: uppercase;
 }
 .pure-menu-heading {
   padding: 0;
@@ -27,8 +38,22 @@ h1, h2, h3 {
   height: 70px;
   width: 70px;
 }
-.joinIcon:after{
-  content: url("../img/icons/shape39.png");
+.joinSection {
+  background-color: #a100ff;
+  border-radius: 4px;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0.5em 1em;
+}
+.joinSection:hover {
+  border-radius: 0px;
+  border: 0;
+}
+.joinSection > .fa-arrow-circle-o-right {
+ margin-left: 10px;
+}
+.pure-menu-list {
+  text-align: right;
 }
 /*Navigation end*/
 /* Header start */
@@ -82,7 +107,6 @@ input{
   background-color:#28c8c6;
   padding: .8em 1.2em;
 }
-
 /*Form end*/
 /* Header end */
 /* Iphone start */
@@ -125,7 +149,6 @@ input{
   border-radius: 50%;
   position: relative;
   margin: 50px auto 0;
-
 }
 .iconBackground img {
   position: absolute;
@@ -155,8 +178,8 @@ input{
   padding: 0;
   overflow: hidden;
   border: 2px solid #28c8c6;
-  width: 528px;
-  border-radius: 5px;
+  max-width: 484px;
+  border-radius: 4px;
 }
 .buttonMenu li{
   float: left;
@@ -240,24 +263,17 @@ input{
   position: absolute;
   top: 350px;
   right: 0;
-  height: 1100px;;
+  height: 100vh;
   width: auto;
 }
-@media screen and (max-width: 1550px) {
+@media screen and (max-width: 1100px) {
   .macBook {
     top: 300px;
-    height: 1000px;
+    height: 90vh  ;
     width: auto;
   }
 }
-@media screen and (max-width: 1165px) {
-  .macBook {
-    top: 400px;
-    height: 800px;
-    width: auto;
-  }
-}
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   .macBook {
     display: none;
   }
@@ -271,7 +287,6 @@ input{
 .social > * {
   display: inline-block;
 }
-
 .tweet, .fb {
   background-color: #69b6f2;
   text-align: center;
@@ -304,6 +319,26 @@ margin-right: 6px;
   margin-top: 0;
   padding: 0;
 }
-.footerInner p {
+.footerInner p, .footer li, .footer li a{
   font-size: 12px;
+  color: #a3b3be;
+}
+
+.footer li {
+  display: inline;
+  margin-top: 20px;
+}
+.footer li.break:after {
+  content: "\a";
+  white-space: pre;
+}
+.footer li:nth-child(2) {
+  margin-left: 50px;
+}
+.footer li:nth-child(4) {
+  margin-left: 57px;
+}
+.footer li a {
+  text-decoration: none;
+  line-height: 2.9em;
 }
