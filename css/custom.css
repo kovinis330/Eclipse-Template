@@ -26,7 +26,6 @@ h1, h2, h3 {
 .pure-menu-link:hover {
   background-color: transparent;
   border-bottom: 2px solid #28c8c6;
-  padding-bottom: 10px;
 }
 .pure-menu-item {
   text-transform: uppercase;
@@ -76,7 +75,7 @@ h1, h2, h3 {
   color:#fff;
 }
 .pure-u-11-12 {
-  text-align: right;  
+  text-align: right;
 }
 .titleSet {
   position: absolute;
@@ -89,15 +88,45 @@ h1, h2, h3 {
 input[type="submit"] {
   background-color: #28c8c6;
 }
+/*Input Icons start*/
 .pure-form input[type=email], .pure-form input[type=text] {
-  padding: .8em;
+  padding:.8em 1.9em .8em .8em;
 }
+.fa-arrow-circle-o-right:before {
+  font-size: 18px;
+  vertical-align: middle;
+}
+.designIcon{
+  position: relative;
+  display: inline-block;
+}
+.designIcon:after {
+  position: absolute;
+  content:url("../img/icons/Shape 26.png");
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+}
+.emailIcon{
+  position: relative;
+  display: inline-block;
+}
+.emailIcon:after {
+  position: absolute;
+  content:url("../img/icons/Shape 28.png");
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+}
+/*Input Icons end*/
+
 input{
   color:black;
 }
 .textHeader {
   width: 55%;
 }
+
 /*Form start*/
 .pure-form {
   font-size: 14px;
@@ -105,9 +134,30 @@ input{
 .pure-button {
   background-color:#28c8c6;
   padding: .8em 1.2em;
+  border-radius: 4px;
 }
 /*Form end*/
+
 /* Header end */
+.contactButton{
+  position: relative;
+}
+.verticalField {
+  position: absolute;
+  transform: rotate(270deg);
+  right: -60px;
+  top: -15px;
+  padding: 0 20px;
+}
+.verticalField a {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  background-color:#a100ff;
+  padding: 15px 25px;
+  border-radius: 4px;
+}
+
 /* Iphone start */
 .iphoneInner {
   text-align: center;
@@ -279,9 +329,22 @@ input{
 }
 /*Macbook End*/
 /*Face section end*/
+
 /*Footer section start*/
+/*Arrow Up Start*/
+.arrowUp{
+  position: absolute;
+  background-color: #919191;
+  color:#fff;
+  padding: 15px 18px;
+  border-radius: 4px;
+  top: -100px;
+  left: 30px;
+}
+/*Arrow Down End*/
 .social {
   text-align: right;
+  margin-bottom: 20px;
 }
 .social > * {
   display: inline-block;
@@ -312,6 +375,7 @@ margin-right: 6px;
 }
 .footer {
   margin-top: 30%;
+  position:relative;
 }
 .copy {
   text-align: right;
@@ -340,4 +404,7 @@ margin-right: 6px;
 .footer li a {
   text-decoration: none;
   line-height: 2.9em;
+}
+.allignRight {
+  text-align: right;
 }

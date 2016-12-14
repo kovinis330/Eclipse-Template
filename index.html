@@ -11,7 +11,7 @@
 <body>
   <!--HEADER START  -->
   <header>
-    <div class="headerBackground" style="background-image:url(img/layer1.jpg);">
+    <div class="headerBackground" id="top" style="background-image:url(img/layer1.jpg);">
         <div class="container">
           <div class="headerInner">
             <div class="pure-menu pure-menu-horizontal">
@@ -37,17 +37,26 @@
                 </div>
                 <form class="pure-form">
                   <fieldset>
-                    <input type="text" placeholder="Design Style">
-                    <input type="email" placeholder="Email" required>
+                    <div class="designIcon">
+                      <input type="text" placeholder="Design Style">
+                    </div>
+                    <div class="emailIcon">
+                      <input type="email" placeholder="Email" required>
+                    </div>
                     <button type="submit" class="pure-button pure-button-primary"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></button>
                   </fieldset>
-              </form>
+                </form>
               </div>
           </div>
         </div>
     </div>
   </header>
   <!--HEADER END  -->
+    <nav class="contactButton">
+      <div class="verticalField">
+        <a href="#join">Contact Us</a>
+      </div>
+    </nav>
   <!--IPHONE SECTION START  -->
   <div class="iphoneBackground" style="background:url(img/dots.jpg)" id="about">
     <!--bubble goes here  -->
@@ -159,7 +168,7 @@
   <!--FACE SECTION END  -->
   <!--FOOTER SECTION START  -->
   <div class="footer" id="join" style="background: #fff">
-    <a href="#"><img src="img/icons/arrowUp.png"></a>
+    <a href="#top" class="arrowUp"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
     <div class="container">
       <div class="footerInner">
         <div class="social">
@@ -181,12 +190,11 @@
             <li><a href="#">Affiliates</a></li>
             </ul>
           </div>
-          <div class="pure-u-1-2">
+          <div class="pure-u-1-2 allignRight">
             <p>Made in Vilnius by Viktoras Jacevičius</p>
             <p>Copyright &copy; 2016 Cool stuff here</p>
           </div>
         </div>
-
         <p>Lorem ipsum dolor sit amet, consectur adipisicing</p>
       </div>
     </div>
