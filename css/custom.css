@@ -179,6 +179,52 @@ input{
   max-width: 50%;
   margin: 0 auto;
 }
+.iphoneBackground {
+  background-position: center center;
+}
+/*Bubble start*/
+.bubble1 {
+  height: 114px;
+  width: 114px;
+  margin: -57px auto 0 auto;
+  position: relative;
+  /*border: 1px solid red;*/
+  border-radius: 50%;
+  background-image: url(../img/dots.jpg);
+  background-position:center;
+}
+.bubble1 > a .fa-arrow-circle-o-down:before {
+  font-size: 33px; /*114px*/
+  color: #919191;
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+.bubble2 {
+  height: 114px;
+  width: 114px;
+  margin: -57px auto 0 auto;
+  position: relative;
+  /*border: 1px solid red;*/
+  border-radius: 50%;
+  background-color:#28c8c6 ;
+}
+.bubble2 > a .fa-arrow-circle-o-down:before {
+  font-size: 33px; /*114px*/
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+/*Bubble end*/
 /* Iphone end */
 /*Features of app section start*/
 .featuresInner{
@@ -338,7 +384,7 @@ input{
   color:#fff;
   padding: 15px 18px;
   border-radius: 4px;
-  top: -100px;
+  top: -50px;
   left: 30px;
 }
 /*Arrow Down End*/
