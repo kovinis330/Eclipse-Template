@@ -190,7 +190,7 @@ input{
   position: relative;
   /*border: 1px solid red;*/
   border-radius: 50%;
-  background-image: url(../img/dots.jpg);
+  background-image: url(../img/bubble.jpg);
   background-position:center;
 }
 .bubble1 > a .fa-arrow-circle-o-down:before {
@@ -211,7 +211,7 @@ input{
   position: relative;
   /*border: 1px solid red;*/
   border-radius: 50%;
-  background-color:#28c8c6 ;
+  background-color: #17b7b5;
 }
 .bubble2 > a .fa-arrow-circle-o-down:before {
   font-size: 33px; /*114px*/
