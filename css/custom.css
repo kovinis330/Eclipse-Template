@@ -174,6 +174,10 @@ input{
   margin: 0 auto;
   display: block;
   padding-top: 50px;
+  max-height: 238px;
+}
+.iphoneContainer {
+  overflow: hidden;
 }
 .textBox {
   max-width: 50%;
@@ -211,7 +215,7 @@ input{
   position: relative;
   /*border: 1px solid red;*/
   border-radius: 50%;
-  background-color: #17b7b5;
+  background-color: #28c8c6;
 }
 .bubble2 > a .fa-arrow-circle-o-down:before {
   font-size: 33px; /*114px*/
@@ -222,11 +226,38 @@ input{
   top: 50%;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
+}
+.bubble3 {
+  height: 114px;
+  width: 114px;
+  margin: -57px auto 0 auto;
+  position: relative;
+  border: 1px solid #d8e0e8;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.bubble3 > a .fa-arrow-circle-o-down:before {
+  font-size: 33px; /*114px*/
+  color: #d8e0e8;
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
 }
 /*Bubble end*/
 /* Iphone end */
 /*Features of app section start*/
+.featuresBackground {
+  background-color:#fff;
+  position: relative;
+  padding-bottom: 100px;
+  z-index: 5;
+}
 .featuresInner{
   text-align: center;
 }
@@ -254,6 +285,9 @@ input{
 }
 /*Features of app section end*/
 /*Design guidelines start*/
+.designBackground {
+  border-top: 1px #d8e0e8 solid;
+}
 .designInner h2{
   font-size: 30px;
   text-align: center;
@@ -294,9 +328,6 @@ input{
   background-color: #28c8c6;
   color: #f6f9fa;
   transition: 0.5s;
-}
-.clearfix{
-  clear:both;
 }
 .underImage {
   padding: 0 5px;
