@@ -38,7 +38,7 @@ h1, h2, h3 {
 .logo {
   height: 70px;
   width: 70px;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 .joinSection {
   background-color: #a100ff;
@@ -170,7 +170,7 @@ h1, h2, h3 {
 .titleSet {
   position: relative;
   margin-bottom: 100px;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 .textHeader p{
   font-size: 16px;
@@ -472,7 +472,7 @@ input{
   float: left;
   width: 177px;
   height: 177px;
-  margin: 20% 2% 0 0;
+  margin: 20% 2% 0 10px;
 }
 .faceText {
   display: block;
@@ -504,7 +504,9 @@ input{
 /*Face section end*/
 
 /*Footer section start*/
-/*Arrow Up Start*/
+.footerInner {
+  margin: 0 10px;
+}
 .arrowUp{
   position: absolute;
   background-color: #919191;
@@ -514,7 +516,6 @@ input{
   top: -50px;
   left: 30px;
 }
-/*Arrow Down End*/
 .social {
   text-align: right;
   margin-bottom: 20px;
