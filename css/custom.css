@@ -164,6 +164,11 @@ h1, h2, h3 {
   font-size: 60px;
   color:#fff;
 }
+@media screen and (max-width: 768px) {
+  .titleSet h1{
+    font-size: 30px;
+  }
+}
 .pure-u-11-12 {
   text-align: right;
 }
@@ -183,6 +188,8 @@ input[type="submit"] {
 .pure-form input[type=email], .pure-form input[type=text] {
   padding:.8em 1.9em .8em .8em;
 }
+
+
 .fa-arrow-circle-o-right:before {
   font-size: 18px;
   vertical-align: middle;
@@ -209,6 +216,7 @@ input[type="submit"] {
   right: 15px;
   transform: translateY(-50%);
 }
+
 /*Input Icons end*/
 
 input{
@@ -231,6 +239,11 @@ input{
 /* Header end */
 .contactButton{
   position: relative;
+}
+@media screen and (max-width: 550px) {
+  .contactButton{
+    display: none;
+  }
 }
 .verticalField {
   position: absolute;
@@ -345,6 +358,9 @@ input{
 /*Bubble end*/
 /* Iphone end */
 /*Features of app section start*/
+.pure-u-1 {
+  padding: 0 20px;
+}
 .featuresBackground {
   background-color:#fff;
   position: relative;
@@ -425,6 +441,17 @@ input{
   color: #f6f9fa;
   transition: 0.5s;
 }
+@media screen and (max-width: 500px) {
+  .buttonMenu{
+    border: 0;
+  }
+  .buttonMenu li {
+    width: 100%;
+  }
+  .buttonMenu li a{
+    margin: 0 auto;
+  }
+}
 .underImage {
   padding: 0 5px;
 }
@@ -462,6 +489,15 @@ input{
   font-size: 60px;
   color: #fff;
   margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .faceInner h2{
+    font-size: 30px;
+  }
+  .faceInner .bigLogo {
+    height: 70px;
+    width: 70px;
+  }
 }
 .faceInner p {
   font-size: 14px;
