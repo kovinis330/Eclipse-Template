@@ -188,8 +188,6 @@ input[type="submit"] {
 .pure-form input[type=email], .pure-form input[type=text] {
   padding:.8em 1.9em .8em .8em;
 }
-
-
 .fa-arrow-circle-o-right:before {
   font-size: 18px;
   vertical-align: middle;
@@ -244,6 +242,9 @@ input{
   .contactButton{
     display: none;
   }
+  .pure-form button[type=submit] {
+    margin: 0;
+  }
 }
 .verticalField {
   position: absolute;
@@ -268,6 +269,11 @@ input{
   font-size: 40px;
   margin-top: 0;
   padding-top: 50px;
+}
+@media screen and (max-width: 768px) {
+  .iphoneInner h2{
+    font-size: 30px;
+  }
 }
 .iphoneInner p{
   font-size: 14px;
@@ -552,6 +558,7 @@ input{
   top: -50px;
   left: 30px;
 }
+
 .social {
   text-align: right;
   margin-bottom: 20px;
@@ -587,6 +594,7 @@ margin-right: 6px;
   margin-top: 30%;
   position:relative;
 }
+
 .copy {
   text-align: right;
   margin-top: 0;
@@ -596,7 +604,6 @@ margin-right: 6px;
   font-size: 12px;
   color: #a3b3be;
 }
-
 .footer li {
   display: inline;
   margin-top: 20px;
@@ -617,4 +624,28 @@ margin-right: 6px;
 }
 .allignRight {
   text-align: right;
+}
+@media screen and (max-width: 768px) { /*568*/
+  .footer, .arrowUp {
+    margin-top: 50px;
+  }
+  .arrowUp {
+    left: 10px;
+  }
+  .allignRight {
+    width: 100%;
+    text-align: left;
+  }
+  .textBox, .textHeader, .textBoxWider {
+    max-width: 90%;
+  }
+  .faceText {
+    width: 65%;
+  }
+  .textHeader p {
+    font-size: 13px;
+  }
+  .featuresBackground {
+    padding-bottom: 50px;
+  }
 }
