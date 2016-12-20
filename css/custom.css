@@ -435,16 +435,18 @@ input{
 }
 .buttonMenu{
   font-family: 'Gotham';
+  font-weight: 700;
   list-style-type: none;
   margin: 50px auto;
   padding: 0;
   overflow: hidden;
-  border: 2px solid #28c8c6;
-  max-width: 484px;
-  border-radius: 4px;
+  border: 1px solid #28c8c6;
+  width: 570px;
+  border-radius: 3px;
 }
 .buttonMenu li{
-  float: left;
+  display: inline-block;
+  width: 139.25px;
 }
 .buttonMenu li a {
   display: block;
@@ -454,7 +456,6 @@ input{
   padding: 14px 6px;
   transition: 0.5s;
   text-transform:uppercase;
-  width: 120px;
   font-size: 14px;
 }
 .buttonMenu li a:hover {
@@ -620,7 +621,7 @@ input{
 }
 .footerInner p, .footer li, .footer li a{
   font-size: 12px;
-  color: #a3b3be;
+  color: #8297a7;
 }
 .footer li {
   display: inline;
