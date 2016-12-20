@@ -29,5 +29,8 @@
 /*Import font awesome*/
 @import "font-awesome.min.css";
 
+/*Impor Icomoon*/
+@import "icomoon.css";
+
 /*Import Custom css*/
 @import "custom.css";
