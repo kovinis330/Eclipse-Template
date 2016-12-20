@@ -1,3 +1,6 @@
+/*Import fonts*/
+@import fonts.css;
+
 /*Import Pure files*/
 @import "pure/base-min.css";
 @import "pure/pure-min.css";
@@ -23,7 +26,7 @@
 @import "pure/tables-min.css";
 */
 
-/*Import Font Awesome*/
+/*Import font awesome*/
 @import "font-awesome.min.css";
 
 /*Import Custom css*/
