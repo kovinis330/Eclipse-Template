@@ -54,14 +54,18 @@ h2, h3 {
   padding: 0.5em 1em;
 }
 .joinSection:after {
-  content: "\ea3e";
+  content: "\ea3c";
+  font-family: 'icomoon';
+  border: 2px solid #fff;
+  border-radius: 50%;
+  font-size: 8px;
+  padding: 3px 4px;
+  margin: 0 0 0 8px;
+  vertical-align: middle;
 }
 .joinSection:hover {
   border-radius: 0px;
   border-bottom: 2px solid transparent;
-}
-.joinSection > .fa-arrow-circle-o-right {
- margin-left: 10px;
 }
 .pure-menu-list {
   text-align: right;
@@ -138,8 +142,8 @@ h2, h3 {
     background-color: transparent;
     text-transform: uppercase;
   }
-  .joinSection > .fa-arrow-circle-o-right {
-   display:none;
+  .joinSection:after {
+    display: none;
   }
   .pure-menu-link.joinSection, .pure-menu-link {
     border:0;
@@ -197,9 +201,15 @@ input[type="submit"] {
 .pure-form input[type=email], .pure-form input[type=text] {
   padding:.8em 1.9em .8em .8em;
 }
-.fa-arrow-circle-o-right:before {
-  font-size: 18px;
+.pure-button-primary:after {
+  content: "\ea3c";
+  font-family: 'icomoon';
+  border: 2px solid #fff;
+  border-radius: 50%;
+  font-size: 8px;
+  padding: 3px 4px;
   vertical-align: middle;
+
 }
 .designIcon{
   position: relative;
@@ -210,7 +220,7 @@ input[type="submit"] {
   content:url("../img/icons/Shape 26.png");
   top: 50%;
   right: 15px;
-  transform: translateY(-50%);
+  transform: translateY(-40%);
 }
 .emailIcon{
   position: relative;
@@ -221,7 +231,7 @@ input[type="submit"] {
   content:url("../img/icons/Shape 28.png");
   top: 50%;
   right: 15px;
-  transform: translateY(-50%);
+  transform: translateY(-40%);
 }
 
 /*Input Icons end*/
@@ -307,23 +317,28 @@ input{
 .bubble1 {
   height: 114px;
   width: 114px;
-  margin: -57px auto 0 auto;
+  margin: -47px auto 0 auto;
   position: relative;
   /*border: 1px solid red;*/
   border-radius: 50%;
   background-image: url(../img/bubble.jpg);
   background-position:center;
 }
-.bubble1 > a .fa-arrow-circle-o-down:before {
-  font-size: 33px; /*114px*/
+.bubble1 > a:after {
+  content: "\ea3e";
+  font-family: 'icomoon';
+  font-size: 18px;
+  padding: 5px;
+  padding-left: 6px;
+  border: 3px solid #919191;
+  border-radius: 50%;
   color: #919191;
-  text-align: center;
   margin: 0 auto;
   position: absolute;
   top: 50%;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
 }
 .bubble2 {
   height: 114px;
@@ -333,13 +348,18 @@ input{
   border-radius: 50%;
   background-color: #28c8c6;
 }
-.bubble2 > a .fa-arrow-circle-o-down:before {
-  font-size: 33px; /*114px*/
+.bubble2 > a:after {
+  content: "\ea3e";
+  font-family: 'icomoon';
+  font-size: 18px;
+  padding: 5px;
+  padding-left: 6px;
+  border: 3px solid #fff;
+  border-radius: 50%;
   color: #fff;
-  text-align: center;
   margin: 0 auto;
   position: absolute;
-  top: 50%;
+  top: 58%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -353,13 +373,18 @@ input{
   border-radius: 50%;
   background-color: #fff;
 }
-.bubble3 > a .fa-arrow-circle-o-down:before {
-  font-size: 33px; /*114px*/
+.bubble3 > a:after {
+  content: "\ea3e";
+  font-family: 'icomoon';
+  font-size: 18px;
+  padding: 5px;
+  padding-left: 6px;
+  border: 3px solid #d8e0e8;
+  border-radius: 50%;
   color: #d8e0e8;
-  text-align: center;
   margin: 0 auto;
   position: absolute;
-  top: 50%;
+  top: 58%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -446,7 +471,7 @@ input{
 }
 .buttonMenu li{
   display: inline-block;
-  width: 139.25px;
+  width: 138.42px;
 }
 .buttonMenu li a {
   display: block;
@@ -455,7 +480,7 @@ input{
   text-align: center;
   padding: 14px 6px;
   transition: 0.5s;
-  text-transform:uppercase;
+  text-transform: uppercase;
   font-size: 14px;
 }
 .buttonMenu li a:hover {
@@ -463,9 +488,10 @@ input{
   color: #f6f9fa;
   transition: 0.5s;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .buttonMenu{
     border: 0;
+    max-width: 100%;
   }
   .buttonMenu li {
     width: 100%;
@@ -575,6 +601,15 @@ input{
   border-radius: 4px;
   top: -50px;
   left: 30px;
+}
+.arrowUp:after {
+  font-size: 16px;
+  font-family: 'icomoon';
+  content: '\ea3a';
+  vertical-align: middle;
+}
+.footer a {
+  text-decoration:none;
 }
 
 .social {
